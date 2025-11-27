@@ -1,0 +1,9 @@
+# Ignore the built website (Cloudflare builds this for you)
+public/
+
+# Ignore local cache and temp files
+resources/
+.hugo_build.lock
+
+# Ignore system files
+.DS_Store

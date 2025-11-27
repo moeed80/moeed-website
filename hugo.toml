@@ -1,0 +1,54 @@
+baseURL = 'https://moeed.com/'
+languageCode = 'en-us'
+title = 'My Blog'
+theme = "PaperMod"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "work"
+    name = "Work"
+    url = "/work/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "speaking"
+    name = "Speaking"
+    url = "/speaking/"
+    weight = 40
+
+  [[menu.main]]
+    identifier = "writing"
+    name = "Writing"
+    url = "/posts/"
+    weight = 50
+
+  [[menu.main]]
+    identifier = "photography"
+    name = "Photography"
+    url = "/photography/"
+    weight = 60
+
+  [[menu.main]]
+    identifier = "code"
+    name = "Code"
+    url = "/code/"
+    weight = 70
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 80
