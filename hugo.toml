@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = 'My Blog'
 theme = "PaperMod"
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [menu]
 
   [[menu.main]]

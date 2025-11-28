@@ -1,0 +1,47 @@
+backend:
+  name: github
+  branch: main # Matches the deployed branch
+  repo: moeed80/moeed-website # Example: moeed/moeed-website
+  # Use your custom domain for the site_domain
+  site_domain: moeed.com
+  auth_scope: repo
+  
+# Authentication required for GitHub backend
+publish_mode: editorial_workflow # Recommended for safety
+
+# The media folder is where images uploaded through the CMS will be stored
+media_folder: "static/images"
+public_folder: "/images"
+
+# The collections are your content types (Pages and Posts)
+collections:
+  # 1. Blog Posts (Writing)
+  - name: "post"
+    label: "Blog Posts (Writing)"
+    folder: "content/posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Summary", name: "summary", widget: "text", required: false}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  # 2. Main Pages (About, Work, Contact, etc.)
+  - name: "pages"
+    label: "Main Pages"
+    files:
+      - label: "About Page"
+        name: "about"
+        file: "content/about.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Contact Page"
+        name: "contact"
+        file: "content/contact.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Intro Text", name: "body", widget: "markdown"}
+          # NOTE: The form HTML is not managed here, only the text content
