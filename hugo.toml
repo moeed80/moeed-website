@@ -8,50 +8,37 @@ unsafe = true
 
 [menu]
 
-  [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 10
+# 1. HOME
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 10
 
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 20
+# 2. WORK (Top Level Parent)
+[[menu.main]]
+  identifier = "work"
+  name = "Work"
+  url = "/work/"
+  weight = 20
 
-  [[menu.main]]
-    identifier = "work"
-    name = "Work"
-    url = "/work/"
-    weight = 30
+# 3. POSTS
+[[menu.main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
+  weight = 30
 
-  [[menu.main]]
-    identifier = "speaking"
-    name = "Speaking"
-    url = "/speaking/"
-    weight = 40
+# 4. ABOUT
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 80
 
-  [[menu.main]]
-    identifier = "writing"
-    name = "Writing"
-    url = "/posts/"
-    weight = 50
-
-  [[menu.main]]
-    identifier = "photography"
-    name = "Photography"
-    url = "/photography/"
-    weight = 60
-
-  [[menu.main]]
-    identifier = "code"
-    name = "Code"
-    url = "/code/"
-    weight = 70
-
-  [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
-    weight = 80
+# 5. CONTACT
+[[menu.main]]
+  identifier = "contact"
+  name = "Contact"
+  url = "/contact/"
+  weight = 90
