@@ -1,14 +1,13 @@
-+++
-date = '2025-11-24T17:57:12-05:00'
-draft = false
-title = '📧 Contact'
-+++
-
-Whether you have a strategic query, a speaking invitation, or want to discuss the future of digital journalism, I'd be happy to hear from you.
+---
+date: 2025-11-24T17:57:12-05:00
+draft: false
+title: 📧 Contact
+---
+Whether you have a strategic query for your media strategy, a speaking invitation, or want to discuss the future of digital journalism, I'd be happy to hear from you.
 
 Please use the form below to send a message directly.
 
----
+- - -
 
 <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
   
@@ -41,7 +40,7 @@ Please use the form below to send a message directly.
   </button>
 </form>
 
----
+- - -
 
 ### Direct Connections
 
