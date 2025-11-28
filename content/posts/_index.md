@@ -1,10 +1,11 @@
 ---
-title: "Writing & Thought Leadership"
-menu: 
+title: Writing
+menu:
   main:
-    name: "Writing"
-    identifier: "writing"
+    name: Writing
+    identifier: writing
     weight: 50
+date: 2025-11-28T11:35:00.000-05:00
 ---
 
 # ✍️ Writing
