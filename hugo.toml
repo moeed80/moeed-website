@@ -1,6 +1,6 @@
 baseURL = 'https://moeed.com/'
 languageCode = 'en-us'
-title = 'My Blog'
+title = 'Moeed Ahmad'
 theme = "PaperMod"
 
 [markup.goldmark.renderer]
