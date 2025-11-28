@@ -1,7 +1,7 @@
 ---
 date: 2025-11-24T17:57:12-05:00
 draft: false
-title: Work
+title: 💼 Professional Experience
 ---
 
 With over 20 years in digital journalism leadership, my career has centered on driving fundamental digital transformation, pioneering new storytelling formats, and managing large-scale, award-winning news organizations.
