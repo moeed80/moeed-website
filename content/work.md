@@ -3,6 +3,9 @@ date: 2025-11-24T17:57:12-05:00
 draft: false
 title: Work
 ---
+
+With over 20 years in digital journalism leadership, my career has centered on driving fundamental digital transformation, pioneering new storytelling formats, and managing large-scale, award-winning news organizations.
+
 ## Head of AJ+ English (2018 – Present)
 
 **Role:** Led the overall strategy, growth, and operations of AJ+ English, overseeing all KPIs, financial positions, and operational governance, and reporting directly to the Network Executive Board.
