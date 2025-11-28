@@ -1,5 +1,5 @@
 ---
-title: Writing
+title: ✍️ Writing
 menu:
   main:
     name: Writing
@@ -7,8 +7,6 @@ menu:
     weight: 50
 date: 2025-11-28T11:35:00.000-05:00
 ---
-# ✍️ Writing
-
 Throughout my career, I have advocated for media innovation, digital strategy, and the critical role of technology in global journalism. This section includes my thoughts and analyses on news today and the future of media and organizational transformation.
 
 Topics often covered include:
